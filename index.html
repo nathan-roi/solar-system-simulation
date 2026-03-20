@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A small introduction to three.js webgl [1]</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/basic.css">
+  </head>
+  <body>
+    <div id="info"><a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> Q1: a rotating WebGL sphere</div>
+    <canvas id="webglcanvas" style="border: none;background-color:#000000"
+	    width="800" height="600"></canvas>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./three.module.js",
+          "three/addons/": "./examples/jsm/"
+        }
+      }
+    </script>
+    
+    <script type="module" src="./js/main.js"></script>
+
+  </body>
+</html>
